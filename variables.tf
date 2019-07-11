@@ -3,11 +3,6 @@ variable "name" {
   description = "Unique name for resources"
 }
 
-variable "environment" {
-  type        = "string"
-  description = "Environment - appended to ${var.name} for resources"
-}
-
 variable "network_mode" {
   type        = "string"
   description = "Task network mode"
